@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="g">This is the paragraph.</p>
+    <button id="m" >Click</button>
+    <button id="n" >Click to reverse the effect of 'Click'</button>
+    <script>
+        // function gl(){
+        //     let x = document.getElementById("g").textContent="Hello, World!"
+        // }
+        // function gk(){
+        //     let x = document.getElementById("g").textContent="This is the paragraph."
+        // }
+        const click = () => {
+            let x = document.getElementById("g").textContent="Hello, World!";
+        }
+        m.addEventListener("click", click);
+
+        const reverse = () => {
+            let y = document.getElementById("g").textContent="This is the paragraph.";
+        }
+        n.addEventListener("click", reverse);
+    </script>
+</body>
+</html>
